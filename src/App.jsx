@@ -14,12 +14,12 @@ function App() {
           </div>
         </div>
         <div className="flex flex-row-reverse md:flex-row justify-end w-[80vw] md:w-fit items-center gap-9 ">
-          <p className="font-extrabold">+918210342249</p>
+          <a className="font-extrabold" href="tel:+918210342249">+918210342249</a>
           <a href="tel:+918210342249">
-            <span class="material-symbols-outlined text-[#333333]">call</span>
+            <span class="material-symbols-outlined bg-[#088AFF] p-1 rounded-lg text-[white] hover:scale-[1.35] transition-transform duration-200 inline-block">call</span>
           </a>
           <a href="https://wa.me/918210342249" target="_blank">
-            <i className="fa fa-whatsapp text-3xl bg-[#25D366] text-white rounded-[50%] px-1"></i>
+            <i className="fa fa-whatsapp text-3xl bg-[#25D366] text-white rounded-[50%] px-1 hover:scale-125 transition-transform duration-200 inline-block"></i>
           </a>
         </div>
       </nav>
@@ -219,9 +219,8 @@ function App() {
           Thank you 🙋‍♂️ for visiting Patna Saurya Solution Pvt. Ltd.; together,
           let's pave the way to a sustainable future!
         </div>
-        <div className="flex justify-center my-3 text-center text-xs md:text-sm text-[#777777]">
-        <p>For website-related issues, please reach out to our developer: 
-          <a href="mailto:akshayrishu4@gmail.com" className="font-bold text-[#967252] hover:scale-125 transition-transform duration-200 inline-block"> Akshay Kumar</a></p>
+        <div className="flex justify-center my-3 text-center text-xs md:text-sm ">
+        <p className="text-[#777777]">For website-related issues, please reach out to our developer: <a href="mailto:akshayrishu4@gmail.com" className="font-bold text-[#967252] hover:scale-125 transition-transform duration-200 inline-block"> Akshay Kumar</a></p>
         </div>
       </footer>
     </>
