@@ -19,7 +19,7 @@ function App() {
           </div>
         </div>
         <div className="flex flex-row-reverse md:flex-row justify-end w-[80vw] md:w-fit items-center gap-9 ">
-          <a className="font-extrabold" href="tel:+918210342249">+918210342249</a>
+          <a className="font-extrabold text-[hsl(28,52%,25%)]" href="tel:+918210342249">+918210342249</a>
           <a href="tel:+918210342249">
             <span class="material-symbols-outlined bg-[#088AFF] p-1 rounded-lg text-[white] hover:scale-[1.35] transition-transform duration-200 inline-block">call</span>
           </a>
