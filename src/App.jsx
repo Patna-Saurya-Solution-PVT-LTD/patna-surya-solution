@@ -220,7 +220,8 @@ function App() {
           let's pave the way to a sustainable future!
         </div>
         <div className="flex justify-center my-3 text-center text-xs md:text-sm text-[#777777]">
-        <p>For website-related issues, please reach out to our developer: <a href="mailto:akshayrishu4@gmail.com">Akshay Kumar</a></p>
+        <p>For website-related issues, please reach out to our developer: 
+          <a href="mailto:akshayrishu4@gmail.com" className="font-bold text-[#967252] hover:scale-125 transition-transform duration-200 inline-block"> Akshay Kumar</a></p>
         </div>
       </footer>
     </>
